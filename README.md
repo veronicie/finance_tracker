@@ -3,6 +3,13 @@ https://github.com/udemyrailscourse/finance-tracker-6/commit/81dcd184cd518e05907
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `251`
+  * Add gem Devise Bootstrap Views
+  ---
+  https://github.com/hisea/devise-bootstrap-view
+  $ bundle install
+  $ rails generate devise:views:bootstrap_templates
+
 * `249`
   * Add Bootstrap
   ---
