@@ -1,8 +1,11 @@
 # This is the finance tracker app from the Complete Ruby on Rails Developer course.
-https://github.com/udemyrailscourse/finance-tracker-6/commit/81dcd184cd518e059074a3909c7d0bdb9d07fb04
+https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `253`
+  * Add messages and nav partial
+
 * `252`
   * Update layout: containers for styling
 
