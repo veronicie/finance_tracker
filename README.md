@@ -3,6 +3,12 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `254`
+  * Setup and use API key to get stock data
+  ---
+  https://iexcloud.io
+  https://github.com/dblock/iex-ruby-client
+
 * `253`
   * Add messages and nav partial
 
