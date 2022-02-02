@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `255`
+  * Create Stock model with attributes
+  ---
+  rails g model Stock ticker:string name:string last_price:decimal
+
 * `254`
   * Setup and use API key to get stock data
   ---
