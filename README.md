@@ -3,6 +3,24 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `257` & `258`
+  * Secure and store credentials in Rails 6
+  ---
+  config/credentials.yml.enc - this is pushed to GH
+  config/master.key - this is NOT
+
+  To add and read credentials:
+  $ EDITOR="code --wait" rails credentials:edit
+
+  To acces the key
+  Rails.application.credentials.aws[:access_key_id]
+
+* `256`
+  * Stock lookup: build class method to lookup stock info
+  ---
+  self method (https://www.rubyguides.com/2020/04/self-in-ruby/)
+  We don't want to push code with secure credentials to GH
+
 * `255`
   * Create Stock model with attributes
   ---
