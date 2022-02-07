@@ -1,2 +1,19 @@
-<h1>Users#my_portfolio</h1>
-<p>Find me in app/views/users/my_portfolio.html.erb</p>
+<h1>My Portfolio</h1>
+
+<div class="pt-3">
+  <h3>Search stocks</h3>
+
+  <%= form_tag '#', method: :get do %>
+    <div class="form-group row">
+      <%# <input type="text" class="form-control col-sm-9" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"> %>
+      <div class="col-sm-9 px-0">
+        <%= text_field_tag :stock, params[:stock], placeholder: 'Stock ticker symbol', autofocus: true, class: 'form-control form-control-lg' %>
+      </div>
+      <div class="col-sm-3 px-0">
+        <%= button_tag type: :submit, class: 'btn btn-success' do %>
+          <%= fa_icon "search 2x" %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `260`
+  * Build Stock Lookup Form
+  ---
+  https://github.com/bokmann/font-awesome-rails
+
 * `259`
   * Setup front-end structure for stock lookup
   ---
