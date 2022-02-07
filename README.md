@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `259`
+  * Setup front-end structure for stock lookup
+  ---
+  $ rails g controller users my_portfolio
+
 * `257` & `258`
   * Secure and store credentials in Rails 6
   ---
