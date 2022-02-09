@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `262`
+  * Create and display Stock objects in browser
+
 * `261`
   * Display stock price in browser
 
