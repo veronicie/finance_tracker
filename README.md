@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `263`
+  * Dealing with invalid and empty symbol entries
+
 * `262`
   * Create and display Stock objects in browser
 
