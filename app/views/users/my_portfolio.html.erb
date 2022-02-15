@@ -3,9 +3,8 @@
 <div class="pt-3">
   <h3>Search stocks</h3>
 
-  <%= form_tag search_stock_path, remote: true, method: :get do %>
+  <%= form_tag search_stock_path, method: :get do %>
     <div class="form-group row">
-      <%# <input type="text" class="form-control col-sm-9" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"> %>
       <div class="col-sm-9 px-0">
         <%= text_field_tag :stock, params[:stock], placeholder: 'Stock ticker symbol', autofocus: true, class: 'form-control form-control-lg' %>
       </div>
@@ -18,6 +17,4 @@
   <% end %>
 </div>
 
-<div id="stock_results">
-</div>
-<%#= render 'users/result' %>
+<%= render 'users/result' %>

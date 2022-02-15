@@ -5,6 +5,7 @@ SECTION 9: Finance tracker app
 --------------------------------
 * `265` >>> `It doesn't work for me!!!!!!`
   * Handle response: Update display with JS
+  * Reverted!
 
 * `264`
   * Use Ajax for form submission
