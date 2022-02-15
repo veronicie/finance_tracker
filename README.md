@@ -3,6 +3,12 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `265` >>> `It doesn't work for me!!!!!!`
+  * Handle response: Update display with JS
+
+* `264`
+  * Use Ajax for form submission
+
 * `263`
   * Dealing with invalid and empty symbol entries
 
