@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `273`
+  * Add functionality to remove tracking
+
 * `272`
   * Implement stock tracking restrictions
 
