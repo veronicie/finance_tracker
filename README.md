@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `271`
+  * The stocks from FE: browser
+
 * `270`
   * Cleanup app layout
 
