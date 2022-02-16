@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `274`
+  * Modify user model - Add first and last name fields to users
+  ---
+  $ rails g migration add_first_last_name_to_users
+
 * `273`
   * Add functionality to remove tracking
 
