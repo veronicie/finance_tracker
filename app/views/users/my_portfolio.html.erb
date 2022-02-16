@@ -18,3 +18,7 @@
 </div>
 
 <%= render 'users/result' %>
+
+<% if @tracked_stocks %>
+  <%= render 'stocks/list' %>
+<% end %>

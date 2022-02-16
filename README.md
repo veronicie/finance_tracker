@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `269`
+  * Add users stock listing for tracked stocks
+
 * `268`
   * SETUP: Users and stocks > many-to-many association
   ---
