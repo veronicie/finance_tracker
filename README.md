@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `272`
+  * Implement stock tracking restrictions
+
 * `271`
   * The stocks from FE: browser
 
