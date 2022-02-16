@@ -3,6 +3,15 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `268`
+  * SETUP: Users and stocks > many-to-many association
+  ---
+  $ rails g resource UserStock user:references stock:references
+  * Create few users and few stocks (in console)
+  $ Stock.create(ticker: 'AMZN', name: 'Amazon.com Inc.')
+  * add stock to user
+  $ user.stocks << stock
+
 * `265` >>> `It doesn't work for me!!!!!!`
   * Handle response: Update display with JS
   * Reverted!
