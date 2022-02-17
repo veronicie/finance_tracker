@@ -1,0 +1,15 @@
+<% if @friend %>
+  <div class="card mt-3 mx-0" style="width: 18rem;">
+    <div class="card-header">
+      <strong>User</strong>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"> <strong>First name: </strong> <%= @friend  %> </li>
+      <li class="list-group-item"> <strong>Last name: </strong> <%= @friend  %> </li>
+      <li class="list-group-item"> <strong>E-mail: </strong> <%= @friend  %> </li>
+      <li class="list-group-item"> 
+        <%= link_to 'Follow friend?', '#', class: 'btn btn-xs btn-success', method: :post  %>
+      </li>
+    </ul>
+  </div>
+<% end %>

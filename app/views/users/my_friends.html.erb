@@ -1,5 +1,24 @@
 <h1>My Friends</h1>
 
+<div class="pt-3">
+  <h3>Search friends</h3>
+
+  <%= form_tag search_friend_path, method: :get do %>
+    <div class="form-group row">
+      <div class="col-sm-9 px-0">
+        <%= text_field_tag :friend, params[:friend], placeholder: 'Name or e-mail', autofocus: true, class: 'form-control form-control-lg' %>
+      </div>
+      <div class="col-sm-3 px-0">
+        <%= button_tag type: :submit, class: 'btn btn-success' do %>
+          <%= fa_icon "search 2x" %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<%= render 'friends/result' %>
+
 <% if @friends %>
   <%= render 'friends/list' %>
 <% end %>
