@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `277`
+  * Self referential association - users and friends
+  ----
+  $ rails g model Friendship user:references
+
 * `276`
   * Accept additional fields in app - sign up action
 
