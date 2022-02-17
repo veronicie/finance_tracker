@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `278`
+  * Friends listing page
+
 * `277`
   * Self referential association - users and friends
   ----
