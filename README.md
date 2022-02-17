@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `281`
+  * Search users/friends: implement search method
+
 * `279`
   * Add search friends field
 
