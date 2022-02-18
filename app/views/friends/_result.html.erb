@@ -19,7 +19,11 @@
                 <td> <%= friend.email %> </td>
                 <td> 
                   <%= link_to 'View profile', '#', class: 'btn btn-sm btn-warning', method: :post  %>
-                  <%= link_to 'Follow friend?', '#', class: 'btn btn-sm btn-success', method: :post  %>
+                  <% if current_user.not_friends_with?(friend.id) %>
+                    <%= link_to 'Follow friend?', '#', class: 'btn btn-sm btn-success', method: :post  %>
+                  <% else %>
+                    <span class="badge bg-secondary"> You are friends </span>
+                  <% end %>
                 </td>
               </tr>
             <% end %>
@@ -27,6 +31,4 @@
         </table>
       </div>
     </div>
-
-
 <% end %>

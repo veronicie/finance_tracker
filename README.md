@@ -3,6 +3,11 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `283`
+  * Implement remove tracking functionality
+  ---
+  $ rails generate controller friendships create destroy
+
 * `281`
   * Search users/friends: implement search method
 
