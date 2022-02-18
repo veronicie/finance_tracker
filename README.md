@@ -3,6 +3,9 @@ https://github.com/udemyrailscourse/finance-tracker-6/commits/master
 
 SECTION 9: Finance tracker app
 --------------------------------
+* `285`
+  * Display user/friend profile and tracking options
+
 * `284`
   * Implement add friend functionality
 
